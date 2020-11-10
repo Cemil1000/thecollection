@@ -2,7 +2,7 @@
     max-width: 125px;
 }
 body{
-    background: url(/images/back.png) no-repeat fixed;
+    background: url(images/back.png) no-repeat fixed;
     background: cover;
 }
 header img{
