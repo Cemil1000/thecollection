@@ -1,0 +1,10 @@
+.imgrouge img{
+    max-width: 125px;
+}
+body{
+    background: url(/images/back.png) no-repeat fixed;
+    background: cover;
+}
+header img{
+    max-width: 50px;
+}
