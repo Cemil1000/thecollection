@@ -21,7 +21,7 @@ const collection = [
         author: 'Guillermo del Toro, Steven S.',
         category: ['Action'],
         link: 'https://www.youtube.com/watch?v=qOX_O118N7k&ab_channel=WarnerBros.France',
-        description: 'Des hordes de créatures monstrueuses venues d’ailleurs, ont déclenché une guerre. Pour les combattres, de gigantesques robots on été fabriquer.'
+        description: 'Des hordes de créatures monstrueuses venues d’ailleurs, ont déclenché une guerre. Pour les combattres, de gigantesques robots ont été fabriquer.'
     },
     {
         img: 'images/Charlie.jpg',
@@ -53,7 +53,7 @@ const collection = [
         author: 'Seth MacFarlane',
         category: ['Comédie'],
         link: 'https://www.youtube.com/watch?v=esfilNg464I&ab_channel=FilmsActu',
-        description: 'Le souhait de John Bennett donne vie à son ami ours en peluche Ted. À l âge adulte, Ted empêche John et son amour Lori Collins de poursuivre leur vie.'
+        description: 'Le souhait de John Bennett donne vie à son ami ours en peluche Ted. À l’âge adulte, Ted empêche John et son amour Lori Collins de poursuivre leur vie.'
     },
     {
         img: 'images/worldwarz.jpg',
@@ -61,7 +61,7 @@ const collection = [
         author: 'Marc Forster',
         category: ['Horreur', 'Action'],
         link: 'https://www.youtube.com/watch?v=jTrmqThqpK8&ab_channel=FilmsActu',
-        description: 'Un agent des Nations Unies se lance dans une course contre la montre pour mettre fin à la prolifération d un virus mortel menaçant l espèce humaine.'
+        description: 'Un agent des Nations Unies se lance dans une course contre la montre pour mettre fin à la prolifération d’un virus mortel menaçant l espèce humaine.'
     },
     {
         img: 'images/conjuring.jpg',
@@ -69,7 +69,7 @@ const collection = [
         author: 'James Wan',
         category: ['Horreur'],
         link: 'https://www.youtube.com/watch?v=Mkf9rGLXeuE&ab_channel=LesCin%C3%A9masPath%C3%A9Gaumont',
-        description: 'Cette histoire abominable, mais vraie, est celle d une famille qui aurait préféré ne pas rencontrer les esprits qui hantent sa ferme isolée.'
+        description: 'Cette histoire abominable, mais vraie, est celle d’une famille qui aurait préféré ne pas rencontrer les esprits qui hantent sa ferme isolée.'
     },
     {
         img: 'images/sanandreas.jpg',
@@ -77,11 +77,11 @@ const collection = [
         author: 'Brad Peyton',
         category: ['Action'],
         link: 'https://www.youtube.com/watch?v=HGpwaIf3ZKk&ab_channel=WarnerBros.France',
-        description: 'Lorsque la Faille de San Andreas s ouvrir, un pilote d hélicoptère et la femme quittent Los Angeles pour San Francisco dans l espoir de sauver leur fille unique.'
+        description: 'Lorsque la Faille de San Andreas s’ouvre, un pilote d’hélicoptère et la femme quittent Los Angeles pour San Francisco dans l’espoir de sauver leur fille unique.'
     },
     {
         img: 'images/kirikou.jpg',
-        title: 'Kitikou et la sorcière',
+        title: 'Kirikou et la sorcière',
         author: 'Michel Ocelot',
         category: ['Animation'],
         link: 'https://www.youtube.com/watch?v=3EA4xnPpZhk&ab_channel=SortieDvdBluRay',
