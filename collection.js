@@ -90,8 +90,8 @@ const collection = [
 ]
 
 
-document.querySelector('.supp').innerHTML=''
-const mainContainer = document.querySelector('.supp');
+document.querySelector('.MyCard').innerHTML=''
+const mainContainer = document.querySelector('.MyCard');
 
 for (let element of collection) {
 
