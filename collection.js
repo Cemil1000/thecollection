@@ -90,14 +90,18 @@ const collection = [
 ]
 
 
-document.querySelector('.MyCard').innerHTML=''
-const mainContainer = document.querySelector('.MyCard');
+document.querySelector('.myCard').innerHTML=''
+const mainContainer = document.querySelector('.myCard');
+
+const sectionfirst = document.createElement('section');
+        sectionfirst.className = 'row my-2';
+        mainContainer.appendChild(sectionfirst);
 
 for (let element of collection) {
 
     const colonnes = document.createElement('div');
         colonnes.className = 'col-12 col-sm-6 col-md-4 col-xl-3 mb-4';
-        mainContainer.appendChild(colonnes);
+        sectionfirst.appendChild(colonnes);
 
     const carte = document.createElement('section');
         carte.className = 'card bg-dark text-white';
