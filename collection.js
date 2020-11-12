@@ -131,6 +131,26 @@ for (let element of collection) {
         petitTitre.style = 'font-size: small';
         petitTitre.textContent = element.author;
         cartebody.appendChild(petitTitre);
-    
-}
 
+    const carteTexte = document.createElement('p');
+        carteTexte.className = 'card-text';
+        carteTexte.style = 'font-size: 0.9rem;';
+        carteTexte.textContent = element.description;
+        cartebody.appendChild(carteTexte);
+
+    const divYtb = document.createElement('div');
+        divYtb.className = 'd-block d-sm-none';
+        cartebody.appendChild(divYtb);
+    
+    const ligne = document.createElement('hr');
+        divYtb.appendChild(ligne);
+
+    const lienYtb = document.createElement('a');
+        lienYtb.href = element.link;
+        divYtb.appendChild(lienYtb);
+
+    const logoYtb = document.createElement('i');
+        logoYtb.className = 'fab fa-2x fa-youtube';
+        logoYtb.style = 'color: red;'
+        lienYtb.appendChild(logoYtb);
+}
