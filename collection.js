@@ -199,22 +199,22 @@ for (let element of collection) {
 
 //-------------------------SEARCH-------------------------//
 
-function filterGames(pattern){
-	const results = []
+function optionSearch(pattern){
+	const usertape = []
   
-  for(let game of collection){
-  	if(game.title.toLowerCase().match(pattern))
-    	results.push(game)
+  for(let filtre of collection){
+  	if(filtre.title.toLowerCase().match(pattern))
+    	usertape.push(filtre)
   }
   
-  const resultsDiv = document.querySelector('#results')
-  resultsDiv.innerHTML = ''
+  const mainFiltre = document.querySelector('#results')
+  mainFiltre.innerHTML = ''
   mainContainer.innerHTML = ''
 
-  for(let element of results) {
+  for(let element of usertape) {
     const colonnes = document.createElement('div');
         colonnes.className = 'col-12 col-sm-6 col-md-4 col-xl-3 mb-4 mx-auto';
-        resultsDiv.appendChild(colonnes);
+        mainFiltre.appendChild(colonnes);
     
     const carte = document.createElement('section');
         carte.className = 'card bg-dark text-white';
@@ -291,5 +291,5 @@ function filterGames(pattern){
 
 document.querySelector('#RechercheBar')
 .addEventListener('keyup', input => {
-	filterGames(input.target.value.toLowerCase())
+	optionSearch(input.target.value.toLowerCase())
 })
